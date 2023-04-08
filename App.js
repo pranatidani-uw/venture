@@ -1,19 +1,31 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button} from "react-native";
+import Testing from './Testing.js';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: 'purple'
-      }}
-    >
-      <Text style = {styles.name}>Venture</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name = "Home" component = {Home} />
+        <Stack.Screen name = "Testing" component = {Testing} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
+
+const Home = ({navigation}) => {
+  return (
+    <Button
+      title="Go to Testing"
+      onPress={() =>
+        navigation.navigate('Testing')
+      }
+    />
+  );
+};
 
 const styles = StyleSheet.create({
   name: {
