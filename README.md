@@ -1,5 +1,8 @@
 
-## Venture
+<div id="bigtext">
+    <span>BIGTEXT</span>
+    <span>Makes Text Big</span>
+</div>
 
 ## Inspiration
 When Anjali went to Spain, she had a really hard time because she is vegetarian, didn't know Spanish, the native language, and wasn't really able to navigate around there, and made meanigful connections. All three of us spoke about this and realized we had the same issue, and thought we should make an app to help others who travel!
