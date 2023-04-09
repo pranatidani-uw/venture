@@ -1,43 +1,21 @@
-# My Universal React Project
+## Inspiration
+When Anjali went to Spain, she had a really hard time because she is vegetarian, didn't know Spanish, the native language, and wasn't really able to navigate around there, and made meanigful connections. All three of us spoke about this and realized we had the same issue, and thought we should make an app to help others who travel!
+## What it does
+This app connects travelers with other venturers around the area, and helps them connect with others, despite language barriers. A user can chat with others in whichever language they prefer (there is a language translator), can meet people through the find a buddy page to hang out with based on their shared interests, can find food that match their preferences, can view and go along with their perfect itinerary made for them, and most importantly, can network with others!
+## How we built it
+We used React Native to build this mobile app, plus many libraries and APIs such as the Google Translator API. We also used Expo for local testing.
+## Challenges we ran into
+This was all three of our first times using React Native, so we definitely ran into some issues.
+We found it hard to get used to the React Native components and the varied syntax. However, we helped each other and used other resources to build our app! We also ran into some issues with the API, but were able to persevere and complete it.
+## Accomplishments that we're proud of
+We are happy that we not only build the entire Figma model, but also built a significant portion of the full stack application, within the 24 hour period. We learned a lot about different technologies, and are glad to have had this opportunity.
+## What we learned
+We learned React Native + building on Expo. We also learned how to prioritize development and work smartly with our limited time. Lastly, we gained a lot of insight into how to work as a team and help each other out!
+## What's next for Venture
+We want to build this into a full-functioning app, build a database to support it, and build some other features such as web scraping for a menu-conversion feature, currency converter, and more!
 
-<p>
-  <!-- iOS -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
-    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  </a>
-  <!-- Android -->
-  <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample">
-    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  </a>
-  <!-- Web -->
-  <a href="https://docs.expo.dev/workflow/web/">
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </a>
-</p>
 
-## 🚀 How to use
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` or `npm run start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
 
-## Running/Modifying Native Code
 
-You can generate native iOS and Android projects from your Expo config file (**app.json**/ **app.config.js**) by runnning `npx expo prebuild`. These native projects can then be compiled and run via XCode and Android Studio.
 
-> 💡 Learn more about [native code in Expo](https://docs.expo.dev/workflow/customizing/)
-
-## Publishing
-
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
-
-## 📝 Notes
-
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
